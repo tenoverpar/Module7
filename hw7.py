@@ -76,7 +76,7 @@ while menu_choice != 5:
         name = input("Name: ")
         if name in usernames:
             del usernames[name]
-            print("\nOkay, I deteted", name)
+            print("\nOkay, I deleted", name)
         else:
             print("\nI can't do that!", name, "doesn't exits in the dictionary.")
 
